@@ -1,98 +1,120 @@
-# 📊 CODSOFT Internship — Task 2: Exploratory Data Analysis (EDA)
+# 📊 CODSOFT Internship — Task 2
+## Customer Churn Analysis — Exploratory Data Analysis (EDA)
 
-<p align="center">
-
-<img src="https://img.shields.io/badge/CODSOFT-Internship-blue?style=for-the-badge" alt="CODSOFT Internship"/>
-<img src="https://img.shields.io/badge/Task-02-orange?style=for-the-badge" alt="Task 2"/>
-<img src="https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python" alt="Python"/>
-<img src="https://img.shields.io/badge/Pandas-EDA-purple?style=for-the-badge&logo=pandas" alt="Pandas"/>
-<img src="https://img.shields.io/badge/Jupyter-Notebook-orange?style=for-the-badge&logo=jupyter" alt="Jupyter"/>
-
-</p>
+> 🚀 **Turning customer data into actionable insights!**  
+> An Exploratory Data Analysis project completed as part of my **CODSOFT Data Analytics Internship – Task 2**.
 
 ---
 
-## 📌 Project Overview
+## 🏢 Internship Details
 
-This project is part of my **Data Analytics Internship at CODSOFT**.
-
-The objective of this task is to perform **Exploratory Data Analysis (EDA)** on a **Restaurant Sales Dataset** using Python, Pandas, and NumPy.
-
-The analysis focuses on understanding the dataset, descriptive statistics, trends, distributions, relationships between variables, outliers, unusual patterns, and key business insights.
-
----
-
-## 🎯 Objectives
-
-The main objectives of this EDA project are:
-
-- 📥 Load and examine the dataset
-- 🔎 Understand the structure and features of the data
-- 📊 Perform descriptive statistical analysis
-- 📈 Identify trends and patterns
-- 📉 Analyze distributions of numerical variables
-- 🔗 Identify relationships between variables
-- 🚨 Detect outliers and unusual patterns
-- 💡 Answer important business questions
-- 📝 Prepare a short EDA report
-
----
-
-## 🗂️ Dataset Information
-
-The Restaurant Sales dataset contains information about orders, customers, products, prices, quantities, order totals, order dates, and payment methods.
-
-### Dataset Columns
-
-| Column | Description |
+| 📌 Details | Information |
 |---|---|
-| `order_id` | Unique order identifier |
-| `customer_id` | Unique customer identifier |
-| `category` | Product category |
-| `item` | Product/item name |
-| `price` | Product price |
-| `quantity` | Quantity purchased |
-| `order_total` | Total value of the order |
-| `order_date` | Date of the order |
-| `payment_method` | Payment method used |
+| 🏢 Organization | **CODSOFT** |
+| 💼 Program | **Data Analytics Internship** |
+| 📝 Task | **Task 2 — Exploratory Data Analysis (EDA)** |
+| 📊 Project | **Customer Churn Analysis** |
+| 🐍 Language | **Python** |
+| 📓 Environment | **Jupyter Notebook** |
+
+---
+
+## 🎯 Task Objective
+
+The objective of **CODSOFT Internship Task 2** is to perform Exploratory Data Analysis on a Customer Churn dataset and:
+
+- 🔍 Understand the dataset
+- 📊 Examine descriptive statistics
+- 📈 Identify trends and distributions
+- 🔗 Analyze relationships between variables
+- 🚨 Detect outliers and unusual patterns
+- 💡 Answer key business questions
+- 📋 Summarize important findings
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-<p align="center">
+```text
+🐍 Python
+🐼 Pandas
+🔢 NumPy
+📊 Matplotlib
+📈 Seaborn
+📓 Jupyter Notebook
+```
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+---
 
-</p>
+## 📂 Project Structure
+
+```text
+Customer-Churn-EDA/
+│
+├── 📁 data/
+│   ├── 📁 raw/
+│   │   └── Customer_Churn.csv
+│   │
+│   └── 📁 processed/
+│       └── Customer_Churn_Cleaned.csv
+│
+├── 📁 notebooks/
+│   └── Customer_Churn_EDA.ipynb
+│
+├── 📄 README.md
+
+```
 
 ---
 
 ## 🔄 EDA Workflow
 
 ```text
-                    ┌─────────────────────┐
-                    │   Cleaned Dataset   │
-                    └──────────┬──────────┘
-                               ↓
-                    ┌─────────────────────┐
-                    │ Dataset Examination │
-                    └──────────┬──────────┘
-                               ↓
-                    ┌─────────────────────┐
-                    │ Descriptive Stats   │
-                    └──────────┬──────────┘
-                               ↓
-              ┌────────────────┴────────────────┐
-              ↓                                 ↓
-     ┌──────────────────┐             ┌──────────────────┐
-     │ Trend Analysis   │             │ Distribution     │
-     └────────┬─────────┘             └────────┬─────────┘
-              ↓                                ↓
-     ┌──────────────────┐             ┌──────────────────┐
-     │ Relationship     │             │ Outlier Detection│
-     │ Analysis         │             │                  │
-     └────────┬─────────┘             └────────
+📁 Raw Customer Data
+        ↓
+🧹 Data Cleaning
+        ↓
+📋 Data Understanding
+        ↓
+📊 Descriptive Statistics
+        ↓
+📈 Trend & Distribution Analysis
+        ↓
+🔗 Relationship Analysis
+        ↓
+🚨 Outlier Detection
+        ↓
+💡 Business Insights
+        ↓
+🎯 Final Findings
+```
+
+---
+
+## 🧹 Data Cleaning
+
+The dataset was prepared before performing EDA.
+
+### Cleaning Steps
+
+- ✅ Checked missing values
+- ✅ Checked duplicate records
+- ✅ Checked column names
+- ✅ Checked data types
+- ✅ Checked unique values
+- ✅ Converted `TotalCharges` to numeric
+- ✅ Handled missing `TotalCharges`
+- ✅ Saved the cleaned dataset
+
+---
+
+## 📊 Exploratory Data Analysis
+
+### 🔹 Descriptive Statistics
+
+Analyzed:
+
+- Mean
+- Median
+- Standard deviation
+-
