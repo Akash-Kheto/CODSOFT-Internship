@@ -1,24 +1,69 @@
 # 🚀 CODSOFT Data Analytics Internship
 
 <p align="center">
-  <img src="https://img.shields.io/badge/CODSOFT-Data%20Analytics%20Internship-blue?style=for-the-badge" alt="CODSOFT Internship">
-  <img src="https://img.shields.io/badge/Python-Data%20Analytics-yellow?style=for-the-badge&logo=python" alt="Python">
-  <img src="https://img.shields.io/badge/Pandas-Analysis-purple?style=for-the-badge&logo=pandas" alt="Pandas">
-  <img src="https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge" alt="Matplotlib">
-  <img src="https://img.shields.io/badge/Seaborn-Visualization-green?style=for-the-badge" alt="Seaborn">
-</p>
-
-<p align="center">
-  <b>📊 Data Cleaning • 🔎 EDA • 📈 Data Visualization</b>
+  📊 <b>Data Cleaning</b> • 🔎 <b>EDA</b> • 📈 <b>Data Visualization</b>
 </p>
 
 ---
 
-## 👋 About This Repository
+## 👨‍💻 Internship
 
-Welcome to my **CODSOFT Data Analytics Internship** repository! 🎓
+**Organization:** CODSOFT  
+**Internship:** Data Analytics Internship  
+**Intern:** Akash Kheto  
+**Tools:** Python • Pandas • NumPy • Matplotlib • Seaborn • Jupyter Notebook
 
-This repository contains the practical projects I completed during my internship, covering the complete basic data analytics workflow:
+---
+
+## 📚 Tasks
+
+### 🧹 Task 1 — Data Cleaning & Preprocessing
+
+**Dataset:** Restaurant Sales Data
+
+- 📥 Loaded raw data
+- 🔍 Checked missing values & duplicates
+- 🧹 Cleaned and preprocessed data
+- 🔄 Fixed data types and column names
+- 💾 Saved processed/cleaned data
+
+📂 `data/raw/restaurant_sales_data.csv`  
+📂 `data/processed/restaurant_sales_data_cleaned.csv`
+
+---
+
+### 🔎 Task 2 — Exploratory Data Analysis
+
+**Dataset:** Customer Churn Dataset
+
+- 📊 Descriptive statistics
+- 🔍 Data distribution analysis
+- 🚨 Outlier & unusual pattern detection
+- 📈 Churn analysis
+- 💡 Key business insights
+
+📂 `data/raw/Customer_Churn.csv`  
+📂 `data/processed/Customer_Churn_cleaned.csv`
+
+---
+
+### 📈 Task 3 — Data Visualization
+
+**Dataset:** Airline Passenger Satisfaction
+
+Created:
+
+📊 Bar Chart • 📈 Line Chart • 🥧 Pie Chart  
+📉 Histogram • 🔵 Scatter Plot
+
+Also customized charts with **titles, labels, legends, and colors** to present insights clearly.
+
+📂 `data/raw/airline_passenger_satisfaction.csv`  
+📂 `data/processed/airline_passenger_satisfaction_cleaned.csv`
+
+---
+
+## 🔄 Workflow
 
 ```text
 📂 Raw Data
@@ -27,42 +72,40 @@ This repository contains the practical projects I completed during my internship
      ↓
 💾 Processed Data
      ↓
-🔎 Exploratory Data Analysis
+🔎 EDA
      ↓
-📊 Data Visualization
+📊 Visualization
      ↓
 💡 Insights
 ```
 
-Through these tasks, I worked with real-world datasets and practiced using Python-based data analytics tools.
+---
+
+## 🛠️ Tech Stack
+
+`Python` `Pandas` `NumPy` `Matplotlib` `Seaborn` `Jupyter Notebook` `Git & GitHub`
 
 ---
 
-## 👨‍💻 Intern Information
+## 🎯 Skills Learned
 
-| 🔹 Details | 🔹 Information |
-|---|---|
-| 🏢 Organization | **CODSOFT** |
-| 💼 Internship | **Data Analytics Internship** |
-| 👤 Intern | **Akash Kheto** |
-| 🐍 Programming | **Python** |
-| 📓 Environment | **Jupyter Notebook** |
-| 📊 Domain | **Data Analytics** |
+🧹 Data Cleaning  
+🔎 Exploratory Data Analysis  
+📊 Data Visualization  
+💡 Insight Generation  
+🐍 Python Data Analysis  
+🐙 Git & GitHub
 
 ---
 
-# 📚 Internship Tasks
+## 🙏 Acknowledgement
 
-## 🧹 Task 1 — Data Cleaning & Preprocessing
+A special thanks to **CODSOFT** for providing this opportunity to gain practical experience in **Data Analytics**. 🚀
 
-### 🎯 Objective
+---
 
-The goal of Task 1 was to transform raw data into a clean and structured dataset suitable for analysis.
+<p align="center">
+  ⭐ <b>Made with ❤️ by Akash Kheto</b> ⭐
+</p>
 
-### 📊 Dataset
-
-**Restaurant Sales Data**
-
-### 🔨 Work Completed
-
-- 📥 Loaded the
+### 🏷️ #CODSOFT #DataAnalytics #Python #EDA #DataVisualization #Internship
